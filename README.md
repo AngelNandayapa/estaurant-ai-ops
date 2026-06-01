@@ -1,4 +1,4 @@
-# 🍽️ Restaurant AI Intelligence System
+#  Restaurant AI Intelligence System
 
 > An AI-powered operations platform that gives restaurant owners complete financial visibility — from automated expense parsing to predictive inventory management — through a simple Telegram interface.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📊 Results
+##  Results
 
 | Metric | Before | After |
 |---|---|---|
@@ -17,7 +17,7 @@
 
 ---
 
-## 🧠 What This System Does
+##  What This System Does
 
 Most restaurants run on gut instinct and manual spreadsheets. This system replaces that with an always-on AI layer that reads receipts, tracks sales, monitors inventory, and tells the owner exactly what to buy this week — all through Telegram.
 
@@ -35,7 +35,7 @@ Weekly purchase recommendations generated automatically
 
 ---
 
-## 🗺️ System Roadmap
+##  System Roadmap
 
 ### ✅ Phase 1 — Expense Tracker (Complete)
 Automated receipt and invoice parsing with real-time Google Sheets injection.
@@ -46,7 +46,7 @@ Automated receipt and invoice parsing with real-time Google Sheets injection.
 - Asynchronous Long Polling with robust error handling and secure credential management
 - **Result:** 80% reduction in manual accounting time
 
-### 🔄 Phase 2 — Income Tracker (In Progress)
+###  Phase 2 — Income Tracker (In Progress)
 Record and categorize every sale so the restaurant knows exactly what's coming in.
 
 - Log daily sales by product or category through Telegram
@@ -54,7 +54,7 @@ Record and categorize every sale so the restaurant knows exactly what's coming i
 - Income vs. expense balance tracked in real time
 - Gross margin calculation per product
 
-### 🔮 Phase 3 — Inventory Management (Planned)
+###  Phase 3 — Inventory Management (Planned)
 Real-time stock level tracking tied directly to sales and purchases.
 
 - Inventory levels updated automatically when expenses (purchases) are logged
@@ -62,7 +62,7 @@ Real-time stock level tracking tied directly to sales and purchases.
 - Low-stock alerts sent via Telegram before items run out
 - Full audit trail of inventory movements
 
-### 🔮 Phase 4 — Sales Prediction (Planned)
+###  Phase 4 — Sales Prediction (Planned)
 ML-powered forecasting so the restaurant knows what will sell next week.
 
 - Time-series forecasting per product using historical sales data
@@ -70,7 +70,7 @@ ML-powered forecasting so the restaurant knows what will sell next week.
 - Demand spike detection for events or promotions
 - Confidence intervals on all predictions
 
-### 🔮 Phase 5 — Purchase Optimization (Planned)
+###  Phase 5 — Purchase Optimization (Planned)
 Closes the loop: tells the owner exactly what to buy, how much, and when.
 
 - Weekly purchase recommendations generated every Sunday
@@ -80,7 +80,7 @@ Closes the loop: tells the owner exactly what to buy, how much, and when.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 telegram/           # Bot interface and message handlers
@@ -99,7 +99,7 @@ ml/                 # Machine learning modules
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -114,7 +114,7 @@ ml/                 # Machine learning modules
 
 ---
 
-## 🚀 Setup
+##  Setup
 
 ### Prerequisites
 - Python 3.11+
@@ -154,7 +154,7 @@ python bot.py
 
 ---
 
-## 🔒 Security
+##  Security
 
 - No API keys or credentials are ever committed to this repository
 - All secrets managed via `.env` and service account JSON (both in `.gitignore`)
@@ -162,7 +162,7 @@ python bot.py
 
 ---
 
-## 👤 Author
+##  Author
 
 **Angel Nandayapa**
 AI Automation Engineer · Software Developer
@@ -172,6 +172,6 @@ Monterrey, NL, Mexico
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — feel free to fork and adapt for your own restaurant or SMB use case.
